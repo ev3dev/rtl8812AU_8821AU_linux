@@ -1,0 +1,21 @@
+Source: rtl8188eu
+Section: kernel
+Priority: optional
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.5
+
+Package: rtl8188eu-modules-4.9.58-ev3dev-1.6.0-ev3
+Architecture: any
+Provides: rtl8188eu-modules
+Depends: firmware-realtek
+Description: rtl8188eu modules for Linux (kernel 4.9.58-ev3dev-1.6.0-ev3).
+ This package contains the set of loadable kernel modules for wireless adapters
+ that use the rtl8818eu chipset.
+ .
+ This package contains the compiled kernel modules for 4.9.58-ev3dev-1.6.0-ev3
+ .
+ If you have compiled your own kernel, you will most likely need to build
+ your own rtl8188eu-modules. The rtl8188eu-source package has been
+ provided for use with the Debian's module-assistant or kernel-package
+ utilities to produce a version of rtl8188eu-modules for your kernel.
